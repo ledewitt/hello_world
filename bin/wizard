@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby -w
+
+require_relative "../lib/hello_world.rb"
+
+# HelloWorld::Announcement.new.start
+
+HelloWorld::Announcement.new.read_something
